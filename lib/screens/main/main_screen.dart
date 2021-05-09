@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_responsive_admin_dashboard/screens/dashbord/dashboard_screen.dart';
 import 'package:flutter_responsive_admin_dashboard/screens/main/widget/side_menu.dart';
 
 class MainScreen extends StatelessWidget {
@@ -14,9 +15,7 @@ class MainScreen extends StatelessWidget {
             Expanded(
               // 5/6 part of the screen
               flex: 5,
-              child: Container(
-                color: Colors.blue,
-              ),
+              child: DashboardScreen(),
             ),
           ],
         ),
